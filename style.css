@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    display: block;
+    background-color: rgb(3, 3, 3);
+}
+header {
+    position: relative;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+
+.content{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    margin-left: 50%;
+    margin-top:25%;
+}
+.img{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+}
+#turnOnOff {
+    position: absolute;
+    width: 500px;
+    position: absolute;
+    margin-left: 50%;
+    transform: translate(-50%,-50%);
+}
+li{
+    list-style: none;
+    float: left;
+    margin:25px;
+}
+#switch{
+    position: absolute;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+#switchButton {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(129, 52, 52);
+    color: white;
+    padding: 10px;
+    border-radius: 25%;
+    border-style: none;
+}
+footer{
+    position: absolute;
+    color: white;
+    margin-top: 55%;
+    margin-left: 50%;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+    font-size: 10px;
+}
